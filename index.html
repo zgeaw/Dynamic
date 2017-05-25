@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>静态页面使用JS+Txt构建动态案例库方案</title>
+		<style>
+			body{margin: 0 auto; font-family: "microsoft yahei",arial;}
+			ul,li,h3,p{ margin: 0; padding: 0; list-style: none;}
+			.arc{ max-width: 600px; margin: 50px auto;}
+			.arc a{color: #333; text-decoration: none;}
+			.arc a:hover{ color: #f60;}
+			.arc li{ padding: 15px; padding-left: 230px; border: 1px #eee solid; box-shadow: 0 0 5px rgba(0,0,0,.1); margin: 15px; transition: all 0.4s;}
+			.arc li:hover{ box-shadow: 0 0 10px rgba(255,102,0,.5); border-color: #f90;}
+			.arc li:after{content: ''; display: table; clear: both;}
+			.arc li h3{ font-size: 18px; height: 25px; margin-bottom: 10px; font-weight: normal;}
+			.arc li p{ font-size: 14px; height: 80px; line-height: 20px; overflow: hidden; color: #999;}
+			.arc .img{ float: left; width: 200px; height: 115px; margin-left: -220px; transition: all 0.4s; box-shadow: 0 0 3px rgba(0,0,0,.2);}
+			.arc .img:hover{ transform: scale(1.05);}
+		</style>
+	</head>
+
+	<body>
+		<div id="demo" class="arc">
+			<ul></ul>
+		</div>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/Dynamic.js"></script>
+	</body>
+
+</html>

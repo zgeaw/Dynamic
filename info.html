@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>静态页面使用JS+Txt构建动态案例库方案</title>
+		<style>
+			body{margin: 0 auto; font-family: "microsoft yahei",arial;}
+			ul,li,h2,h3,p{ margin: 0; padding: 0; list-style: none;}
+			.arc{ max-width: 600px; margin: 50px auto;}
+			.arc a{color: #333; text-decoration: none;}
+			.arc a:hover{ color: #f60;}
+			.arc li{ padding: 15px; padding-left: 230px; border: 1px #eee solid; box-shadow: 0 0 5px rgba(0,0,0,.1); margin: 15px; transition: all 0.4s;}
+			.arc li:hover{ box-shadow: 0 0 10px rgba(255,102,0,.5); border-color: #f90;}
+			.arc li:after{content: ''; display: table; clear: both;}
+			.arc li h3{ font-size: 18px; height: 25px; margin-bottom: 10px; font-weight: normal;}
+			.arc li p{ font-size: 14px; height: 80px; line-height: 20px; overflow: hidden; color: #999;}
+			.arc .img{ float: left; width: 200px; height: 115px; margin-left: -220px; transition: all 0.4s; box-shadow: 0 0 3px rgba(0,0,0,.2);}
+			.arc .img:hover{ transform: scale(1.05);}
+			.case{ max-width: 800px; margin: 50px auto; padding: 20px; border: 1px #eee solid; box-shadow: 0 0 5px rgba(0,0,0,.1); font-size: 14px;}
+			.case img{ max-width: 100%; height: auto;}
+			.case p{ text-indent: 2em; color: #666;}
+			.case h2{font-weight: normal; border-bottom: 1px #eee solid; margin: 10px 0 15px; padding-bottom: 15px;}
+			.case h2:before{ content: ''; display: inline-block; background: #f60; width: 6px; height: 20px; vertical-align: middle; margin-right: 10px;}
+			.case .am-cf{ padding-left: 220px;}
+			.case .am-cf:after{content: ''; display: table;clear: both;}
+			.case .am-cf .case-detail-logo{ float: left; margin-left: -220px; width: 200px;}
+			.goback{float: right; text-decoration: none; font-size: 16px; color: #f60;}
+			.goback:before{ content: ''; display: inline-block; border: 8px solid transparent; border-right-color: #f60; margin-right: 5px; vertical-align: middle;}
+			.am-primary{ background: #e5d9d0;}
+			table{ border: 1px #eee solid;}
+			table th,table td{ padding: 8px; border-bottom: 1px #eee solid; color: #666;}
+			table th{ text-align: right; color: #9b5d1a;}
+			table tr:last-child th,table tr:last-child td{ border: 0;}
+		</style>
+	</head>
+
+	<body>
+		<div class="case">
+			<h2>企业介绍<a href="index.html" class="goback">返回列表</a></h2>
+			<div class="am-cf">
+				<div class="am-align-right case-detail-logo">
+					<img src="images/case/1_logo.jpg" style="display: none;" id="caseinfo_logo" />
+				</div>
+				<p id="caseinfo_desc"></p>
+			</div>
+			<h2 class="case-name">案例名称：<span id="caseinfo_title"></span></h2>
+			<img class="case-detail-img" style="display: none;" id="caseinfo_img" src=""/>
+			<div id="caseinfo_content"></div>
+		</div>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/Dynamic.js"></script>
+	</body>
+
+</html>

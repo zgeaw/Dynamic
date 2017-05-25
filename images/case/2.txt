@@ -1,0 +1,71 @@
+﻿<h2 class="case-name">所属行业：制造业</h2>
+<h2 class="case-name">实现功能</h2>
+<p>铜铝在线为有色金属行业的电子商务交易平台，采用系统自动组批团购的方式，将需求相同的客户组批给统一厂家竞价，以组团形式在降低买家采购成本的同时降低工厂的生产成本。平台同时提供现货采购模式，供用户实现快速线上交易。</p>
+<h2 class="case-name">技术要点</h2>
+<p>项目使用.Net技术开发，结合前端HTML技术和JS框架，及行业算法完成了平台的建设。</p>
+<h2 class="case-name">前台功能</h2>
+<p>
+<table class="am-table">
+    <tbody>
+        <tr>
+            <th class="am-primary am-text-right" style="width:150px;">商城首页</th>
+            <td>用户可登录、注册成为商城用户，访问平台首页内容</td>
+        </tr>
+        <tr>
+            <th class="am-primary am-text-right">订制商城</th>
+            <td>系统采用自动组批团购的方式，系统采用自动组批团购的方式，将需求相同的客户组批给统一厂家竞价，形成询价单</td>
+        </tr>
+        <tr>
+            <th class="am-primary am-text-right">现货商城</th>
+            <td>用户可在线生成现货询价单，并根据个人需求采购需要的现货</td>
+        </tr>
+        <tr>
+            <th class="am-primary am-text-right">厂家展示</th>
+            <td>展示平台的厂家信息，包括厂家的现货资源、交易记录、产品目录及公司档案等。</td>
+        </tr>
+        <tr>
+            <th class="am-primary am-text-right">供应商展示</th>
+            <td>展示通过平台认真的供应商信息，包括供应商的现货资源、交易记录、产品目录及公司档案等。</td>
+        </tr>
+        <tr>
+            <th class="am-primary am-text-right">商务中心</th>
+            <td>认证会员登录系统后可使用该模块，以便于查看、编辑和撤销现货交易、订制交易、企业信息和个人中心模块功能的使用</td>
+        </tr>
+        <tr>
+            <th class="am-primary am-text-right">数据中心</th>
+            <td>展示平台的数据信息，形成对应的图形数据表。</td>
+        </tr>
+    </tbody>
+</table>
+</p>
+<h2 class="case-name">后台管理端</h2>
+<p>
+<table class="am-table">
+    <tbody>
+        <tr>
+            <th class="am-primary am-text-right" style="width:150px;">门户网站内容管理</th>
+            <td>管理网站信息内容，网站广告信息，友情链接和长江现货价等</td>
+        </tr>
+        <tr>
+            <th class="am-primary am-text-right">基础定义</th>
+            <td>定义系统基础数据</td>
+        </tr>
+        <tr>
+            <th class="am-primary am-text-right">现货交易</th>
+            <td>管理现货交易产生的询价单、订单和合同等信息。</td>
+        </tr>
+        <tr>
+            <th class="am-primary am-text-right">订制交易</th>
+            <td>管理订制交易产生的询价单、分组单、订单、组批单、合同等。</td>
+        </tr>
+        <tr>
+            <th class="am-primary am-text-right">订制报表</th>
+            <td>生成与订制业务相关的报表</td>
+        </tr>
+        <tr>
+            <th class="am-primary am-text-right">会员报表</th>
+            <td>生成会员相关的信用积分报表、业绩统计报表等。</td>
+        </tr>
+    </tbody>
+</table>
+</p>
